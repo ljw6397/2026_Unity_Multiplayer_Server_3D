@@ -169,7 +169,7 @@ public class FusionBootstrap : MonoBehaviour, INetworkRunnerCallbacks
 
         lobbyObjects[player] = lobbyObj;
 
-        Debug.Log($"로비 데이터 생성 완료 : {player}"); 
+        Debug.Log($"로비 데이터 생성 완료 : {player}");   
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player) 
